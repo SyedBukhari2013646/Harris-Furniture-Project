@@ -1,0 +1,340 @@
+/**************************/
+/* BELOW max-screen(big) */
+/**************************/
+@media (max-width: 701em) {
+}
+
+/**************************/
+/* BELOW 1140px (big-laptops) */
+/**************************/
+@media (max-width: 71em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 1024px (Smaller laptops) */
+/**************************/
+
+@media (max-width: 64em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .main-heading {
+    font-size: 5.2rem;
+  }
+
+  .clearance-heading {
+    font-size: 4.8rem;
+  }
+
+  .clearance-text p {
+    font-size: 1.8rem;
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+
+  .main-text {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .ireland-part {
+    position: relative;
+    color: #25150d;
+  }
+
+  .new-in-store {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .img-store {
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .box-new {
+    opacity: 0;
+  }
+
+  .inspire-span .new-text {
+    grid-row: 1/-1;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30rem;
+  }
+
+  .shop-new-link,
+  .shop-links,
+  .clearance-link,
+  .inspire-btn {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 2rem;
+    background-color: #25150d;
+    border-radius: 100rem;
+  }
+
+  .shop-links {
+    font-size: 4rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .clearence {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0 !important;
+  }
+
+  .clearance-text-query {
+    margin-bottom: 2rem;
+  }
+
+  .xlearence-img {
+    width: 100vw;
+  }
+
+  .clearance-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .side-icons {
+    display: none;
+  }
+
+  .mob-nav {
+    display: block;
+    color: inherit;
+  }
+
+  :host .ionicons {
+    stroke: #25150d;
+  }
+
+  :host .ionicon {
+    stroke: #25150d;
+  }
+
+  .inspired {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .inspire {
+    justify-self: center;
+  }
+
+  .inspire-head {
+    text-align: center;
+    line-height: 0.5;
+    margin-bottom: 3rem;
+  }
+
+  .inspire-head-span {
+    position: relative;
+  }
+
+  .inspire-text {
+    grid-row: 2;
+    display: flex;
+    gap: 12rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-icon {
+    display: flex;
+    gap: 1rem;
+    display: inline-flex;
+  }
+}
+
+/**************************/
+/* BELOW 770px ( tablets) */
+/**************************/
+@media (max-width: 48em) {
+  html {
+    font-size: 40%;
+  }
+
+  .main-img {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .clearance-img img {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .inspire-img {
+    height: 100vh;
+  }
+}
+
+/**************************/
+/* BELOW 470px (mobiles) */
+/**************************/
+
+@media (max-width: 29.3em) {
+  .main-heading {
+    font-size: 5rem;
+  }
+
+  .ireland-part {
+    margin: 0;
+  }
+
+  .new-text {
+    gap: 15rem;
+  }
+
+  .new-in-store {
+    margin-bottom: 0;
+  }
+
+  .clearance-text {
+    gap: 20rem;
+  }
+
+  .inspire span {
+    position: relative;
+    color: #25150d;
+  }
+
+  .inspire-img {
+    margin-bottom: 10rem;
+  }
+}
+
+/**************************/
+/* BELOW 425px (mobiles) */
+/**************************/
+
+@media (max-width: 26em) {
+  html {
+    font-size: 30% !important;
+  }
+
+  .brand-icons {
+    font-size: 10rem;
+  }
+
+  .mob-nav-btn {
+    font-size: 7rem;
+  }
+
+  img {
+    height: 60vh;
+  }
+
+  .shop-links {
+    padding: 2rem;
+  }
+
+  .main-img,
+  .xlearence-img,
+  .inspire-img {
+    height: 60vh;
+  }
+
+  .main-heading {
+    position: absolute;
+    display: flex;
+    transform: translate(-10%, -230%);
+  }
+
+  .qurey-mob-main {
+    gap: 12rem;
+  }
+
+  .main-text {
+    line-height: 3rem;
+    gap: 4rem;
+  }
+
+  .qurey-mob-main {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .ireland-part {
+    align-self: flex-start;
+  }
+
+  .shop-links {
+    font-size: 3rem;
+  }
+
+  .main-img {
+    position: relative;
+  }
+
+  @keyframes mainheading {
+    from {
+      left: -4rem;
+      opacity: 0;
+    }
+    to {
+      left: 4rem;
+      opacity: 1;
+    }
+  }
+
+  .img-store {
+    position: relative;
+    padding: 0;
+  }
+
+  .new-text h3 {
+    letter-spacing: 0rem;
+  }
+
+  .new-text,
+  .clearance-text {
+    position: absolute;
+    transform: translate(15%, -390%);
+  }
+
+  .clearance-text {
+    position: absolute;
+    transform: translate(15%, -190%);
+  }
+
+  .inspire-head {
+    color: #fff;
+    position: absolute !important;
+    z-index: 3 !important;
+  }
+
+  .qurey-inspire {
+    font-size: 1.5rem;
+    color: #fff;
+    position: absolute;
+    transform: translate(5%, -390%);
+  }
+
+  .inspire-btn {
+    color: #25150d;
+    background-color: #fff;
+  }
+}
